@@ -1,0 +1,454 @@
+/* reseteo de todos espacios, HACER SIEMPRE*/
+*{  
+    margin: 0;
+    padding: 0;}
+
+
+             
+              /******BODY******/
+body{
+    
+        background-image: linear-gradient(to left, red, yellow);
+     
+    background-attachment: fixed;}
+
+        /*******HEADER NAVEGACION******/
+
+header{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration : none/*sacar subrayado a los enlaces*/; color: darkred;
+ }
+
+.h1__index{
+    
+    top: 50px;
+    left: 10px;
+    color: #b105a2;
+    font-size: 5rem;
+    text-align: center;
+    }
+
+.div__h1--index{
+    margin-top: -3rem;
+    text-align: center;}
+
+.navegacion li{
+    list-style-type: none; /*sacar puntitos*/
+    display: inline;
+    margin-right: 1rem;
+    font-size: 3rem;
+    border: solid 1px black;
+    transition: all .5s;
+    
+
+    }
+    .navegacion li:hover {
+      background-color: #00fd33;
+    }
+    
+
+
+.nav-bar{
+    margin-bottom: 50px;}
+              
+          /******IMAGEN 1******/
+
+.card__img{
+     margin-top: 2rem;
+    width: 158.2rem;
+    height: 75rem;}
+
+    /********VIDEO-1***********/
+    .index-video1{
+      
+      text-align: center;
+    }
+
+    /*********FOTO2**************/
+    .index-foto2{
+      text-align: center;
+    }
+ 
+          /******BOTON 1******/
+.boton1 {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    margin-top: 6rem;}
+      
+         /******BOTON 1 DIV******/
+
+.div__boton1{
+    margin-top: 3rem;
+  text-align: center;}
+
+        /******H2******/
+
+
+.div-h2-index{
+    text-align: center;
+    margin-top: 2rem;}
+
+.h2-index{
+    margin-top: 3rem;
+    font-size: 7rem;	
+    text-align: center;
+    color: #1d86cc;
+    border: solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+    .boton2 {
+        text-decoration: none;
+        padding: 1rem;
+        font-weight: 600;
+        font-size: 2rem;
+        color: #ffffff;
+        background-color: #1883ba;
+        border-radius: 0.6rem;
+        border: 0.2rem solid #0016b0;
+        margin-top: 2rem;}
+
+        /******IMAGEN 3******/
+
+.div__Foto3__Foto4{
+text-align: center;}
+
+.foto3{
+    width: 80rem;
+    margin-top: 3rem;
+    display: inline;
+    max-width: 100%;}
+
+        /******IMAGEN 4******/
+
+.foto4{
+    width: 80rem;
+    margin-top: 3rem;
+    display: inline;
+    max-width: 100%;}
+
+       /******LETRA PARRAFO******/
+
+.violeta-negrita{
+    color:rgb(157, 17, 238); font-family:cursive;
+    line-height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: aqua;}
+    
+.index-video2{
+  text-align: center;
+}
+
+
+       /******PAGINA PAQUETES ******/
+
+            /*******H1********/
+.divH1{
+margin-top: -1rem;}
+
+    /******H1******/
+ 
+h1{
+    color: blue;
+    text-align:center;
+    font-size: 2rem ;
+    margin-top: 4rem;}
+
+h1{
+    border-style: dashed;
+    margin: 3rem;
+    margin-left: 5rem;
+    border: solid;
+    
+    margin-left: 2rem;}
+
+            /*******TABLA********/
+
+.div__tabla1{
+        margin-top: 2rem;}
+
+table{
+     text-align: center;
+  border: solid;}
+
+th{
+    font-size: 3rem;
+    border: solid 1rem red;
+    color: #00fd33;
+    background-color: black;}
+
+td {
+    border: solid 1rem blue;
+    font-size: 3rem;
+    color: #eafa0e;
+    background-color: black;}
+
+
+
+            /*******H2********/
+
+.h2-paquetes{
+    display: inline;
+    border: solid;
+    block-size: 0%;
+    font-size: 3rem;
+    color: aqua;}
+
+            /*******IMAGENES 1 ********/
+
+            /*******H3********/
+
+.div__paquetes{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;}
+
+h3{
+    display: inline;
+    border: solid;
+    font-size: 3rem;
+    color: aqua;}
+
+            /*******IMAGENES ********/
+
+.div__h4{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;}
+
+.img__paquetes3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;}
+  
+            /***FOOTER***/
+footer{
+    font-size: 3rem;
+text-align: center;}
+
+          /*******GALERIA**********/
+
+          /****FOTOS*****/
+
+.div__fotosGaleria{
+    text-align: center;}
+.fotosGaleria{
+    width: 50rem;
+    height: 50rem;
+    max-width: 100%;}
+
+
+        /********TIENDA*********/
+
+         /***IMAGENES 1 ***/
+.div__tienda__imagenes{
+    text-align: center;
+    margin-top: 10rem;}
+        
+        
+                 /***IMAGENES 2***/
+.div__tienda__imagenes2{
+     text-align: center;
+     margin-top: 10rem;}
+        
+        
+.foto_tienda{
+    width: 40rem;
+    height: 40rem;
+    margin-top: 5rem;
+    max-width: 100%;}
+        
+                 /***IMAGENES 3***/
+        
+.div__tienda__imagenes3{
+    text-align: center;}
+        
+     
+                
+
+        
+               /******FOOTER******/
+        
+footer{
+    font-size: 3rem;}
+ 
+
+/********CONTACTO**********/
+form{
+    font-size: 2rem;}
+
+
+.prueba{
+    background-color: #b105a2;
+    width: 500px;
+    color: #0008ff;}
+
+.seccion-contacto{
+    margin-top: 8rem;
+}
+
+
+/*********************************************************************************************************************/
+
+
+ul{
+    list-style: none;
+     }
+    
+     #grilla-tienda{
+       display: grid;
+       grid-template-areas:
+       "header header header"
+       "productos productos productos"
+       "banner banner banner"
+       "footer footer footer" ;
+    
+       grid-template-columns: repeat(3, 1fr);
+       
+     }
+    
+     #header-tienda{
+       grid-area: header;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+     }
+    
+     @media screen and (max-width: 992px){
+       #header-tienda{
+          flex-direction: column;
+          margin-bottom: 2rem;
+       }
+     }
+    
+     .logo{
+       height: 8rem;
+     }
+    
+     #navegacion-tienda{
+       display: flex;
+       gap: 0.8rem;
+     }
+    
+     @media screen and (max-width:767px){
+       #navegacion-tienda{
+          flex-direction: column;
+       }
+     }
+    
+     #navegacion-tienda li{
+       background-color: black;
+       padding: 0.4rem 0.4rem;
+     }
+    
+    
+    
+     #productos-tienda{
+       grid-area: productos;
+     }
+     #productos-tienda h2,
+     #productos-tienda p {
+       text-align: center;
+       background-color: blue;
+       
+     }
+     p{
+       color: yellow;
+     }
+    
+     .padre-cards{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       row-gap: 1rem;
+       justify-items: center;
+       
+     }
+    
+     @media screen and (max-width: 992px){
+       .padre-cards{
+          
+          grid-template-columns: repeat(2,1fr);
+          
+       }
+     }
+    
+     @media screen and (max-width:767px) {
+       .padre-cards{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+       }
+     }
+    
+     .card-tienda{
+       width: 15rem;
+       border: solid 2px grey;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 1rem;
+     }
+    
+     .card-tienda img{
+    height: 12rem;
+     }
+    
+     #banner-tienda{
+       grid-area: banner;
+       background-color: darkgoldenrod;
+       margin-top: 4rem;
+       padding: 1rem;
+     }
+     
+     #banner-tienda h2{
+       text-align: center;
+       ;
+     }
+    
+     .padre-banners{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       justify-content: center;
+       gap: 1rem;
+     }
+    
+     @media screen and (max-width:992px) {
+       .padre-banners{
+    
+       grid-template-columns: repeat(2,1fr) }
+     }
+    
+     @media screen and (max-width:767px) {
+       .padre-banners{
+    
+       grid-template-columns: 1fr }
+     }
+    
+    .banners-caracteristicas{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+    }
+
+    .caja-negra{
+        height: 200px;
+        width: 200px;
+        background-color: black;
+        margin-top: 5rem;
+        transform: translate(10px, 20px);
+    }
+    
+     #footer{
+       grid-area: footer;
+     }
